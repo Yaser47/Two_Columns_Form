@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Two Columns Form</title>
+	<link rel="stylesheet" href="./CSS/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Cairo:wght@300;400;700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@300;400;500;700&family=Mukta:wght@200;300;400;600&family=Open+Sans:wght@300;400&family=Outfit:wght@300;400;600&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@300;400;700&family=Work+Sans:wght@200;300;400;500;600;700;800&family=Zilla+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<div class="container">
+			<div class="upper-form">
+				<form action="" class="left-col">
+					<div class="field">
+						<label for="name" class="star">Username</label>
+						<input type="text" class="input" placeholder="Type Your Name In English Only" id="name" required name="username">
+					</div>
+					<div class="field">
+						<label for="pass" class="star">Password</label>
+						<input type="password" class="input" placeholder="Type Complex Password" id="pass" required name="pass">
+					</div>
+					<div class="field">
+						<label for="email" class="star">Email</label>
+						<input type="email" class="input" placeholder="Type A Valid Email" id="email" required name="email">
+					</div>
+				</form>
+				<form action="" class="right-col">
+					<div class="field">
+						<label for="tel">Phone</label>
+						<input type="tel" class="input" name="phone">
+					</div>
+					<div class="field area">
+						<label for="brieft">Brieft</label>
+						<textarea name="message" id="brieft" class="input"></textarea>
+					</div>
+				</form>
+			</div>
+			<form action="" class="button">
+				<input type="submit" class="send" value="Register">
+			</form>
+		</div>
+	</main>
+</body>
+</html>
